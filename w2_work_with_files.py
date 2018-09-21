@@ -5,7 +5,7 @@ with open('referat.txt', 'r') as file:
 # выведем на печать длину строки
 print('Длина текста: ', len(ref))
 
-#теперь то же, только построчно
+# теперь то же, только построчно
 # как понял из видео, так проще обрабатывать тяжелые файлы
 # функцию не вижу смысла тут создавать
 
@@ -18,10 +18,10 @@ for line in ref:
 print('Длина текста: ', sum_symb)
 
 # меняем точки на восклицательные знаки
-for i in range(len(ref)):
-    ref[i] = ref[i].replace(".", '!')
+for item in range(len(ref)):
+    ref[item] = ref[item].replace(".", '!')
     
 # writing changes into new file
 with open('decorated_referat.txt', 'w') as file:
-    for i in ref:
-        file.write(i)
+    for item in ref:
+        file.write(item)
