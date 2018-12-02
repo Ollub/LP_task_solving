@@ -1,6 +1,6 @@
 env
-*.txt
 *.csv
 *.log
 __py*
 .ipynb_checkpoints
+presentation.txt
