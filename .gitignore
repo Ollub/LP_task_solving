@@ -3,3 +3,4 @@ env
 *.csv
 *.log
 __py*
+.ipynb_checkpoints
